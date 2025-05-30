@@ -174,7 +174,7 @@ print("\nClassification Report:\n", classification_report(y_test, test_preds))
 
 
 # Streamlit App
-st.title("SPD [Spam Detection Sit]")
+st.title("SPD [Spam Detection Toole]")
 
 st.write("Enter your message below to check if it is spam or not.")
 
