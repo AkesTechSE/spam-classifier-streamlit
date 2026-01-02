@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: spam-classifier
+    env: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /
+    envVars:
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: true

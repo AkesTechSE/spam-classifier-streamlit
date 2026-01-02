@@ -1,0 +1,11 @@
+.git
+.gitignore
+.github
+.devcontainer
+pytest
+__pycache__
+*.pyc
+.pytest_cache
+*.egg-info
+dist
+build
